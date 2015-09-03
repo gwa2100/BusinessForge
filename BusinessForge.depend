@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1441282462 source:z:\projects\github\businessforge\source\game.cpp
+1441287498 source:z:\projects\github\businessforge\source\game.cpp
 	<stack>
 	<SFML/Graphics.hpp>
 	<SFML/System.hpp>
 	"game.hpp"
 	"game_state.hpp"
+	"animation_handler.hpp"
 
 1429784053 z:\projects\github\businessforge\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -384,14 +385,18 @@
 	<string>
 	<vector>
 
-1441281674 z:\projects\github\businessforge\include\game.hpp
+1441287498 z:\projects\github\businessforge\include\game.hpp
 	<stack>
+	<map>
+	<string>
 	<SFML/Graphics.hpp>
+	"texture_manager.hpp"
+	"tile.hpp"
 
 1441281674 z:\projects\github\businessforge\include\game_state.hpp
 	"game.hpp"
 
-1441282511 source:z:\projects\github\businessforge\source\game_state_editor.cpp
+1441282718 source:z:\projects\github\businessforge\source\game_state_editor.cpp
 	<SFML/Graphics.hpp>
 	"game_state.hpp"
 	"game_state_editor.hpp"
@@ -399,4 +404,64 @@
 1441282179 z:\projects\github\businessforge\include\game_state_editor.hpp
 	<SFML/Graphics.hpp>
 	"game_state.hpp"
+
+1441285991 source:z:\projects\github\businessforge\source\animation_handler.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"animation_handler.hpp"
+
+1441285991 z:\projects\github\businessforge\include\animation_handler.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+
+1441284832 z:\projects\github\businessforge\include\texture_manager.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+
+1441287891 z:\projects\github\businessforge\include\tile.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"animation_handler.hpp"
+
+1441282462 source:z:\projects\github\businessforge\source\game_state_start.cpp
+	<SFML/Graphics.hpp>
+	"game_state_start.hpp"
+	"game_state_editor.hpp"
+	"game_state.hpp"
+
+1441282589 z:\projects\github\businessforge\include\game_state_start.hpp
+	<SFML/Graphics.hpp>
+	"game_state.hpp"
+
+1441282179 source:z:\projects\github\businessforge\source\main.cpp
+	"game.hpp"
+	"game_state_start.hpp"
+
+1441284832 source:z:\projects\github\businessforge\source\texture_manager.cpp
+	<SFML/Graphics.hpp>
+	<map>
+	<string>
+	"texture_manager.hpp"
+
+1441287498 source:z:\projects\github\businessforge\source\tile.cpp
+	<SFML/Graphics.hpp>
+	"animation_handler.hpp"
+	"tile.hpp"
+
+1441288664 source:z:\projects\github\businessforge\source\map.cpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	<fstream>
+	"map.hpp"
+	"tile.hpp"
+
+1441288111 z:\projects\github\businessforge\include\map.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	"tile.hpp"
 

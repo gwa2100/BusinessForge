@@ -46,8 +46,24 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++11" />
 		</Compiler>
+		<Unit filename="include/animation_handler.hpp" />
+		<Unit filename="include/game.hpp" />
+		<Unit filename="include/game_state.hpp" />
+		<Unit filename="include/game_state_editor.hpp" />
+		<Unit filename="include/game_state_start.hpp" />
+		<Unit filename="include/map.hpp" />
+		<Unit filename="include/texture_manager.hpp" />
+		<Unit filename="include/tile.hpp" />
+		<Unit filename="source/animation_handler.cpp" />
+		<Unit filename="source/game.cpp" />
+		<Unit filename="source/game_state_editor.cpp" />
+		<Unit filename="source/game_state_start.cpp" />
 		<Unit filename="source/main.cpp" />
+		<Unit filename="source/map.cpp" />
+		<Unit filename="source/texture_manager.cpp" />
+		<Unit filename="source/tile.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
